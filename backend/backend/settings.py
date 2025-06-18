@@ -8,10 +8,12 @@ SECRET_KEY = 'django-insecure-j_89af+30&&4qm*8z9_(^zz8p4-ho8z_m6ylm0s$h!-p@on1_^
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['taski-lur.zapto.org', 'localhost', '127.0.0.1:8000', '158.160.7.139',]
-
-
-# Application definition
+ALLOWED_HOSTS = [
+    'taski-lur.zapto.org',
+    'localhost',
+    '127.0.0.1:8000',
+    '158.160.7.139',
+]
 
 INSTALLED_APPS = [
     'api.apps.ApiConfig',
